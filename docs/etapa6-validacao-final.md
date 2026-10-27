@@ -28,8 +28,4 @@ Tests: 1 failed, 9 passed, 10 total
 - **Refatorado:** 5 de 5 passam, incluindo o teste HTML que esperava `<tr>` e antes recebia `<tr >`.
 - **Original:** 4 de 5 passam. A falha é a do espaço em `<tr >` (etapa 1), mantida de propósito porque o enunciado proíbe alterar o arquivo original. Por isso o `npm test` completo termina com código 1.
 
-O item 3 da etapa pede que "ambos os arquivos passem". Isso só é possível para o arquivo refatorado. Para o original passar também, bastaria corrigir o `<tr ${style}>` nele, o que contraria a regra de não modificá-lo. Convém registrar isso no relatório.
-
-## Pendente
-
-O push para o GitHub (item 4 da etapa) não foi feito.
+O item 3 da etapa pede que "ambos os arquivos passem". Isso só é possível para o arquivo refatorado. Para o original passar também, bastaria corrigir o `<tr ${style}>` nele, o que contraria a regra de não modificá-lo.
